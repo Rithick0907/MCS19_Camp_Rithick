@@ -1,6 +1,6 @@
 package mcs_bootcamp;
 import java.util.Scanner;
-public class Day2_inputoutput {
+public class inputoutput {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int N;
