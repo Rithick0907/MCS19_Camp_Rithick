@@ -2,7 +2,7 @@ package mcs_bootcamp;
 
 import java.util.Scanner;
 
-public class Day2_Fibonacci {
+public class Fibonacci {
     public static void main(String[] args) {
         int f1=1,f2=2,sum=0;
         while(f1<4000000||f2<4000000)
