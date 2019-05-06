@@ -1,6 +1,6 @@
 package mcs_bootcamp;
 import java.util.Scanner;
-public class Day2_Basics {
+public class Basics {
     public static void main(String[] args) {
         int i,j;
         int[] a=new int[10];
