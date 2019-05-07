@@ -1,12 +1,17 @@
 //Question in bottom
 package mcs_bootcamp;
 import java.util.*;
-public class Stack4 {
+public class Day5_Stack4 {
     public static void main(String[] args) {
         Stack<Integer> s=new Stack<>();
-        int n,i,j,k=0;
+        int n,i,j,t,m=1;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter Number of Task:");
+        System.out.print("Enter Number of Test Case:");
+        t=sc.nextInt();
+        while(t>0)
+        {
+        int k=0;
+        System.out.print("Enter number of Queries for TestCase "+m+":");
         n=sc.nextInt();
         int[] q=new int[n];
         int[] p=new int[n];
@@ -24,7 +29,7 @@ public class Stack4 {
                 k++;
             }
         }
-        System.out.println("OUTPUT:");
+        System.out.println("OUTPUT for testcase "+m+":");
         if(k==0)
         {
             System.out.println("-1");
@@ -32,7 +37,10 @@ public class Stack4 {
         else
         {
             for(i=0;i<k;i++)
-                System.out.print(p[i]+" ");
+                System.out.println(p[i]+" ");
+        }
+        t--;
+        m++;
         }
     }
 }
