@@ -1,7 +1,7 @@
 package mcs_bootcamp;
 import java.util.*;
 public class BinarySearch {
-    static int n,i,j;
+    static int n,i;
     static int[] a;
     private static int binsrch(int low, int high, int key) {
        int mid;
