@@ -1,1 +1,1 @@
-# MCS_19_Camp_-Rithick-
+# MCS_19_Camp_Rithick
